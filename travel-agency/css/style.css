@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  font-family: 'Varela', sans-serif;
+}
+
+.header {
+  background: rgb(40, 41, 46);
+  padding: 1.5%;
+  font-family: 'Varela', sans-serif;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.header__сontainer {
+  display: flex;
+  width: 55%;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+
+.header__container--links {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 75%;
+  justify-content: space-evenly;
+}
+
+.header__container--logo {
+  width: 30%;
+  font-size: 1.1rem;
+}
+
+.header__item:hover {
+  transition: 400ms;
+  color: rgba(223, 176, 88, 0.758);
+}
+
+.header__item--special {
+    color: rgba(223, 176, 88, 0.758);
+}
