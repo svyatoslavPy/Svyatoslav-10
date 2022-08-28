@@ -25,38 +25,40 @@ ol {
 }
 
 .container {
-  font-family: 'Varela', sans-serif;
+  font-family: "Varela", sans-serif;
 }
 
 .header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
   background: rgb(40, 41, 46);
   padding: 1.5%;
-  font-family: 'Varela', sans-serif;
   font-size: 0.8rem;
   color: white;
+  outline: 2px solid green;
 }
 
 .header__сontainer {
+  outline: 1px solid red;
   display: flex;
-  width: 55%;
+  width: 60%;
   justify-content: space-evenly;
   text-transform: uppercase;
   align-items: center;
 }
-
 
 .header__container--links {
-  text-transform: uppercase;
+  outline: 1px solid blueviolet;
   display: flex;
-  align-items: center;
-  width: 75%;
   justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  width: 70%;
 }
 
-.header__container--logo {
-  width: 30%;
-  font-size: 1.1rem;
-}
 
 .header__item:hover {
   transition: 400ms;
@@ -64,5 +66,64 @@ ol {
 }
 
 .header__item--special {
-    color: rgba(223, 176, 88, 0.758);
+  color: rgba(223, 176, 88, 0.758);
 }
+
+.logo__image {
+  width: 159px;
+}
+
+
+.main__content {
+  outline: 1px solid rgb(255, 197, 49);
+  background-image: url(../images/jailam-rashad-swnvvNsfr94-unsplash.jpg);
+  background-size: cover;
+  position: relative;
+  padding: 24%;
+}
+
+.main__content--bg {
+  outline: 1px solid rgb(135, 31, 121);
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.main__content--title {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  left: 43%;
+  bottom: 55%;
+  color: rgb(255, 255, 255);
+}
+
+.main__content--item {
+  position: absolute;
+  left: 29%;
+  bottom: 44%;
+  font-size: 3.9rem;
+}
+
+.main__input--wrapper {
+  position: absolute;
+  left: 42%;
+  bottom: 34%;
+  width: 13%;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  padding: 18px;
+  border-radius: 50px;
+  background: rgb(67, 67, 255);
+}
+
+.main__input--title {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
