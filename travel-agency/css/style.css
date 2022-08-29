@@ -43,22 +43,24 @@ ol {
 
 .header__сontainer {
   outline: 1px solid red;
-  display: flex;
   width: 60%;
+}
+
+.links__flexible {
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
   text-transform: uppercase;
-  align-items: center;
+}
+
+.logo__image {
+  width: 159px;
 }
 
 .header__container--links {
   outline: 1px solid blueviolet;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-transform: uppercase;
   width: 70%;
 }
-
 
 .header__item:hover {
   transition: 400ms;
@@ -69,14 +71,9 @@ ol {
   color: rgba(223, 176, 88, 0.758);
 }
 
-.logo__image {
-  width: 159px;
-}
-
-
 .main__content {
   outline: 1px solid rgb(255, 197, 49);
-  background-image: url(../images/jailam-rashad-swnvvNsfr94-unsplash.jpg);
+  background-image: url(../images/beach.jpg);
   background-size: cover;
   position: relative;
   padding: 24%;
@@ -86,7 +83,6 @@ ol {
   outline: 1px solid rgb(135, 31, 121);
   background: rgba(0, 0, 0, 0.4);
   color: white;
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -94,8 +90,7 @@ ol {
 }
 
 .main__content--title {
-  position: absolute;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 0.9rem;
   left: 43%;
   bottom: 55%;
@@ -103,14 +98,16 @@ ol {
 }
 
 .main__content--item {
-  position: absolute;
   left: 29%;
   bottom: 44%;
   font-size: 3.9rem;
 }
 
-.main__input--wrapper {
+.element__position {
   position: absolute;
+}
+
+.main__input--wrapper {
   left: 42%;
   bottom: 34%;
   width: 13%;
@@ -123,7 +120,19 @@ ol {
 
 .main__input--title {
   display: flex;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   justify-content: center;
 }
 
+.form__wrapper {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.form__wrapper--title {
+  display: flex;
+  justify-content: space-between;
+  width: 79%;
+}
