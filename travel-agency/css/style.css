@@ -38,11 +38,11 @@ ol {
   padding: 1.5%;
   font-size: 0.8rem;
   color: white;
-  outline: 2px solid green;
+  /* outline: 2px solid green; */
 }
 
-.header__сontainer {
-  outline: 1px solid red;
+.header__wrapper {
+  /* outline: 1px solid red; */
   width: 60%;
 }
 
@@ -50,15 +50,14 @@ ol {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  text-transform: uppercase;
 }
 
 .logo__image {
   width: 159px;
 }
 
-.header__container--links {
-  outline: 1px solid blueviolet;
+.header__wrapper--links {
+  /* outline: 1px solid blueviolet; */
   width: 70%;
 }
 
@@ -79,8 +78,8 @@ ol {
   padding: 24%;
 }
 
-.main__content--bg {
-  outline: 1px solid rgb(135, 31, 121);
+.main__content--background {
+  /* outline: 1px solid rgb(135, 31, 121); */
   background: rgba(0, 0, 0, 0.4);
   color: white;
   top: 0;
@@ -89,95 +88,100 @@ ol {
   right: 0;
 }
 
-.main__content--title {
-  text-transform: uppercase;
-  outline: 1px solid rgb(135, 31, 121);
+.element__position {
+  position: absolute;
+}
+
+.main__item--special {
+  /* outline: 1px solid rgb(135, 31, 121); */
   font-size: 0.9rem;
+  letter-spacing: 1px;
   left: 43%;
   bottom: 58%;
   color: rgb(255, 255, 255);
 }
 
-.main__content--item {
+.main__item {
   left: 21%;
   bottom: 44%;
   font-size: 4.3rem;
-  outline: 1px solid rgb(135, 31, 121);
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
-.element__position {
-  position: absolute;
-}
-
-.main__input--wrapper {
+.main__wrapper--botton {
   left: 42%;
   bottom: 32%;
   width: 13%;
-  outline: 1px solid rgb(135, 31, 121);
+  /* outline: 1px solid rgb(135, 31, 121); */
   font-size: 0.8rem;
   margin-top: 10px;
   padding: 18px;
   border-radius: 50px;
+}
+
+.element__background {
   background: #4674e7;
 }
 
-.main__input--title {
+.main__item--botton {
   display: flex;
-  text-transform: uppercase;
-  outline: 1px solid rgb(135, 31, 121);
   justify-content: center;
+  letter-spacing: 1px;
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .form__wrapper {
   margin-top: 55px;
-  display: flex;
-  justify-content: space-around;
-  width: 85%;
-  outline: 1px solid rgb(135, 31, 121);
+  width: 83%;
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
-.form__wrapper--title {
-  display: flex;
-  justify-content: space-between;
-  outline: 1px solid rgb(135, 31, 121);
-  font-size: 0.9rem;
+.form__items {
+  /* outline: 1px solid rgb(135, 31, 121); */
+  font-size: 1rem;
   color: #5c5c5c;
-  width: 81%;
+  width: 82%;
 }
 
 .form__wrapper--input {
-  padding-top: 20px;
-  display: flex;
-  justify-content: space-around;
+  padding-top: 35px;
   width: 98%;
 }
 
-.form__title--input {
-  display: flex;
-  justify-content: space-between;
+.form__items--input {
   width: 86%;
 }
 
-.input, .list {
+.element__flexible-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.element__flexible-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input, .list, .botton__wrapper {
   border-radius: 50px;
   padding: 15px;
+  width: 150px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border: 1px solid rgb(220, 217, 217);
 }
 
-.input__title {
-  background: #4674e7;
-  border-radius: 50px;
-  padding: 15px;
+.botton__wrapper {
   width: 13%;
 }
 
-.input__item {
-  display: flex;
-  justify-content: space-evenly;
-  width: 123px;
-  align-items: center;
-  text-transform: uppercase;
-  font-size: 1rem;
-  letter-spacing: 0.3px;
+.botton__items {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
   color: #ffff;
+}
+
+.element__transform {
+  text-transform: uppercase;
 }
