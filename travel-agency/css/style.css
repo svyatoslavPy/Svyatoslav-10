@@ -1,126 +1,130 @@
 * {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  border: 0;
-  box-sizing: border-box;
+  margin: 0; /* Внешние отступы 0*/
+  padding: 0; /* Внyтренние отступы 0*/
+  outline: 0; /* невидимая граница 0 0*/
+  border: 0; /* Граница 0*/
+  box-sizing: border-box; /* box-sizing */
 }
 
 html {
-  font-size: 16px;
+  font-size: 16px; /* Размер шрифта 16px*/
 }
 
 body {
-  font-size: 1rem;
-  line-height: 1;
+  font-size: 1rem; /* Размер шрифта 1rem */
+  line-height: 1; /* межстрочный интервал 1*/
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none; /* убрать все подчеркивания */
 }
 
 ul,
 ol {
-  list-style: none;
+  list-style: none; /* убрать все маркеры со списка*/
 }
 
 .container {
-  font-family: "Varela", sans-serif;
+  font-family: "Varela", sans-serif; /* шрифт */
 }
 
 .header {
-  display: flex;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 100;
-  background: rgb(40, 41, 46);
-  padding: 1.5%;
-  font-size: 0.8rem;
-  color: white;
+  display: flex; /* Display: flex */
+  position: fixed; /* Фиксированное позиционирание */
+  width: 100%; /* Ширина 100% */
+  top: 0; /* Top: 0 */
+  z-index: 100; /* Z-index для приоритетности*/
+  background: rgb(40, 41, 46); /* фон */
+  padding: 1.5%; /* внутренние отступы 1.5% */
+  font-size: 0.8rem; /* Размер шрифта 0.8 rem */
+  color: white; /* Цвет: white */
   /* outline: 2px solid green; */
 }
 
 .header__wrapper {
   /* outline: 1px solid red; */
-  width: 60%;
+  width: 60%; /* Ширина 60% */
 }
 
 .header__item {
-  color: white;
+  color: white; /* Цвет: white */
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .links__flexible {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  display: flex; /* Display flex */
+  align-items: center; /* Центрировать вертикально по центру */
+  justify-content: space-evenly; /* чётный промежуток*/
 }
 
 .logo__image {
-  width: 159px;
+  width: 159px; /* Ширина 159px для фотографии*/
 }
 
 .header__wrapper--links {
   /* outline: 1px solid blueviolet; */
-  width: 70%;
+  width: 70%; /* Ширина 70% */
 }
 
 .header__item:hover {
-  transition: 400ms;
-  color: rgba(223, 176, 88, 0.758);
+  /* при наведение */
+  transition: 400ms; /* Плавность 400ms*/
+  color: rgba(223, 176, 88, 0.758); /* Цвет rgb */
 }
 
 .header__item--special {
-  color: rgba(223, 176, 88, 0.758);
+  color: rgba(223, 176, 88, 0.758); /* Цвет rgb */
 }
 
 .main__content {
-  outline: 1px solid rgb(255, 197, 49);
-  background-image: url(../images/beach.jpg);
-  background-size: cover;
-  position: relative;
-  padding: 24%;
+  outline: 1px solid rgb(255, 197, 49); /* Неведимые границы*/
+  background-image: url(../images/beach.jpg); /* Фон images*/
+  background-size: cover; /* bg-size(заполняет по фону)*/
+  position: relative; /* Относительно его позиционирвание*/
+  padding: 24%; /* Внутренние отступы 24% */
 }
 
 .main__content--background {
   /* outline: 1px solid rgb(135, 31, 121); */
-  background: rgba(0, 0, 0, 0.4);
-  color: white;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  background: rgba(0, 0, 0, 0.4); /* Фон */
+  color: white; /* Цвет: white */
+  top: 0; /* вниз: 0*/
+  bottom: 0; /* вверх: 0*/
+  left: 0; /* направо: 0*/
+  right: 0; /* налево: 0*/
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .element__position {
-  position: absolute;
+  position: absolute; /* Абсолютное позиционирание*/
 }
 
 .main__item--special {
+  font-size: 0.9rem; /* Размер шрифта 0.9rem */
+  letter-spacing: 1px; /* Интервал между элементами*/
+  left: 43%; /* Направо 43% */
+  bottom: 58%; /* вверх 58% */
+  color: rgb(255, 255, 255); /* цвет */
   /* outline: 1px solid rgb(135, 31, 121); */
-  font-size: 0.9rem;
-  letter-spacing: 1px;
-  left: 43%;
-  bottom: 58%;
-  color: rgb(255, 255, 255);
 }
 
 .main__item {
-  left: 21%;
-  bottom: 44%;
-  font-size: 4.3rem;
+  left: 21%; /* направо: 21%  */
+  bottom: 44%; /* вверх: 44% */
+  font-size: 4.3rem; /* Размер шрифта 4.3rem */
   /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .main__wrapper--botton {
-  left: 42%;
-  bottom: 32%;
-  width: 13%;
+  left: 42%; /* Направо 42*/
+  bottom: 32%; /* Вверх 32% */
+  width: 13%; /* Ширина 13% */
   /* outline: 1px solid rgb(135, 31, 121); */
-  font-size: 0.8rem;
-  margin-top: 10px;
-  padding: 18px;
-  border-radius: 50px;
+  font-size: 0.8rem; /* Размер шрифта 0.8rem */
+  margin-top: 10px; /* внешний отступ вниз 10px */
+  padding: 18px; /* внутренний отступ 18px */
+  border-radius: 50px; /* радиус границы 50px */
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .element__background {
@@ -133,110 +137,120 @@ ol {
 }
 
 .main__item--botton {
-  display: flex;
-  justify-content: center;
-  letter-spacing: 1px;
+  display: flex; /* display flex */
+  justify-content: center; /* Расположить по центру */
+  letter-spacing: 1px; /* интервал между элементами */
   /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .form__wrapper {
-  margin-top: 55px;
-  width: 83%;
+  margin-top: 55px; /* внешний отступ вниз */
+  width: 83%; /* ширина 83% /*
   /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .form__items {
   /* outline: 1px solid rgb(135, 31, 121); */
-  font-size: 1rem;
-  color: #5c5c5c;
-  width: 82%;
+  font-size: 1rem; /* Размер шрифта 1rem */
+  color: #5c5c5c; /* color */
+  width: 82%; /* Ширина 82% */
 }
 
 .form__wrapper--input {
-  padding-top: 35px;
-  width: 98%;
+  padding-top: 35px; /* внутренний отступ вниз на 22px*/
+  width: 98%; /* Ширина: 98% */
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .form__items--input {
-  width: 86%;
+  width: 86%; /* Ширина: 86% */
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .element__flexible-1 {
-  display: flex;
-  justify-content: space-between;
+  display: flex; /* display flex */
+  justify-content: space-between; /* расположить одинаково*/
 }
 
 .element__flexible-2 {
-  display: flex;
-  justify-content: space-around;
+  display: flex; /* display flex */
+  justify-content: space-around; /* расположить одинаково*/
 }
 
 .input, .list, .botton__wrapper {
-  border-radius: 52px;
-  padding: 15px;
-  width: 150px;
+  border-radius: 52px; /* радиус границы: 52px */
+  padding: 15px; /* внутренние отступы 15px */
+  width: 150px; /* ширина 150px */
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: 1px solid #e1dfdf;
+  border: 1px solid #e1dfdf; /* границы(border) */
 }
 
 .botton__wrapper {
-  width: 13%;
+  width: 13%; /* ширина: 13% */
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .botton__items {
-  font-size: 0.9rem;
-  width: 87%;
-  letter-spacing: 1px;
-  color: #ffff;
+  font-size: 0.9rem; /* Размер шрифта 0.9rem */
+  width: 87%; /* Ширина: 87% */
+  letter-spacing: 1px; /* интервал между строк*/
+  color: #ffff; /* color */
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .element__transform {
-  text-transform: uppercase;
+  text-transform: uppercase; /* Вверхний регистр*/
 }
 
 .main {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255); /* фон(background)*/
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .main__wrapper {
-  width: 66%;
-  padding: 14%;
+  width: 66%; /* ширина 66% */
+  padding: 14%; /* внутренние отступы 14*/
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
-
-
 .main__subtitle {
-  color: #17a2b8;
-  font-family: 'Barlow', sans-serif;
-  letter-spacing: 3px;
-  font-size: 0.9rem;
+  color: #17a2b8; /* color */
+  font-family: "Barlow", sans-serif; /* Шрифт */
+  letter-spacing: 3px; /* интервал между строк */
+  font-size: 0.9rem; /* размер шрифта 0.9 rem */
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .main__title {
-  font-size: 2.7rem;
-  padding-top: 22px;
-  line-height: 53px;
-  font-weight: 700;
-  color: #0f2454;
+  font-size: 2.7rem; /* размер шрифта: 2.7rem */
+  padding-top: 22px; /* внутренний отступ вниз на 22px */
+  line-height: 53px; /* Межстрочный интервал*/
+  font-weight: 700; /* Вес шрифта */
+  color: #0f2454; /* color */
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .main__title span {
-  color: #17a2b8;
+  color: #17a2b8; /* color */
+}
+
+.main__font {
+  font-family: "Barlow", sans-serif; /* шрифт */
 }
 
 .main__text {
-  padding-top: 25px;
-  line-height: 1.75em;
-  font-weight: 400;
-  letter-spacing: 0.3px;
-  font-family: 'Barlow', sans-serif;
-  color: #676977;
+  padding-top: 25px; /* внутренний отступ вниз 25px */
+  line-height: 1.75em; /* Межстрочный интервал*/
+  font-weight: 400; /* Вес шрифта */
+  letter-spacing: 0.3px; /* интервал между элементами */
+  color: #676977; /* color */
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
 
 .main__about--text {
-  color: #676977;
-  font-family: 'Barlow', sans-serif;
-  padding-top: 20px;
+  color: #676977; /* color */
+  padding-top: 23px; /* внутренний отступ вниз 20px */
+  /* outline: 1px solid rgb(135, 31, 121); */
 }
