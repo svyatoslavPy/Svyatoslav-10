@@ -217,7 +217,6 @@ ol {
 
 .main__subtitle {
   color: #17a2b8; /* color */
-  font-family: "Barlow", sans-serif; /* Шрифт */
   letter-spacing: 3px; /* интервал между строк */
   font-size: 0.9rem; /* размер шрифта 0.9 rem */
   /* outline: 1px solid rgb(135, 31, 121); */
