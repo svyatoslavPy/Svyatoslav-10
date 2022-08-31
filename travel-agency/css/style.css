@@ -38,17 +38,14 @@ ol {
   padding: 1.5%; /* внутренние отступы 1.5% */
   font-size: 0.8rem; /* Размер шрифта 0.8 rem */
   color: white; /* Цвет: white */
-  outline: 2px solid green;
 }
 
 .header__wrapper {
-  outline: 1px solid red;
   width: 60%; /* Ширина 60% */
 }
 
 .header__item {
   color: white; /* Цвет: white */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .links__flexible {
@@ -62,7 +59,6 @@ ol {
 }
 
 .header__wrapper--links {
-  outline: 1px solid blueviolet;
   width: 70%; /* Ширина 70% */
 }
 
@@ -77,7 +73,6 @@ ol {
 }
 
 .main__content {
-  outline: 1px solid rgb(255, 197, 49); /* Неведимые границы*/
   background-image: url(../images/beach.jpg); /* Фон images*/
   background-size: cover; /* bg-size(заполняет по фону)*/
   position: relative; /* Относительно его позиционирвание*/
@@ -91,7 +86,6 @@ ol {
   bottom: 0; /* вверх: 0*/
   left: 0; /* направо: 0*/
   right: 0; /* налево: 0*/
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .element__position {
@@ -104,26 +98,22 @@ ol {
   left: 41.5%; /* Направо 43% */
   bottom: 58%; /* вверх 58% */
   color: rgb(255, 255, 255); /* цвет */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .main__item {
   left: 21%; /* направо: 21%  */
   bottom: 44%; /* вверх: 44% */
   font-size: 4.3rem; /* Размер шрифта 4.3rem */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .main__wrapper--botton {
   left: 41%; /* Направо 42*/
   bottom: 32%; /* Вверх 32% */
   width: 13%; /* Ширина 13% */
-  /* outline: 1px solid rgb(135, 31, 121); */
   font-size: 0.8rem; /* Размер шрифта 0.8rem */
   margin-top: 10px; /* внешний отступ вниз 10px */
   padding: 18px; /* внутренний отступ 18px */
   border-radius: 50px; /* радиус границы 50px */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .element__background {
@@ -139,17 +129,14 @@ ol {
   display: flex; /* display flex */
   justify-content: center; /* Расположить по центру */
   letter-spacing: 1px; /* интервал между элементами */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .form__wrapper {
   margin-top: 55px; /* внешний отступ вниз */
-  width: 83%; /* ширина 83% /*
-  outline: 1px solid rgb(135, 31, 121);
+  width: 83%; /* ширина 83% */
 }
 
 .form__items {
-  outline: 1px solid rgb(135, 31, 121);
   font-size: 1rem; /* Размер шрифта 1rem */
   color: #5c5c5c; /* color */
   width: 82%; /* Ширина 82% */
@@ -158,12 +145,10 @@ ol {
 .form__wrapper--input {
   padding-top: 35px; /* внутренний отступ вниз на 22px*/
   width: 98%; /* Ширина: 98% */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .form__items--input {
   width: 86%; /* Ширина: 86% */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .element__flexible-1 {
@@ -176,9 +161,7 @@ ol {
   justify-content: space-around; /* расположить одинаково*/
 }
 
-.input,
-.list,
-.botton__wrapper {
+.input, .list, .botton__wrapper {
   border-radius: 52px; /* радиус границы: 52px */
   padding: 15px; /* внутренние отступы 15px */
   width: 150px; /* ширина 150px */
@@ -190,7 +173,6 @@ ol {
 
 .botton__wrapper {
   width: 13%; /* ширина: 13% */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .botton__items {
@@ -198,7 +180,6 @@ ol {
   width: 87%; /* Ширина: 87% */
   letter-spacing: 1px; /* интервал между строк*/
   color: #ffff; /* color */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .element__transform {
@@ -207,20 +188,17 @@ ol {
 
 .main {
   background-color: rgb(255, 255, 255); /* фон(background)*/
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .main__wrapper {
   width: 66%; /* ширина 66% */
   padding: 10%; /* внутренние отступы 14*/
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .main__subtitle {
   color: #17a2b8; /* color */
   letter-spacing: 3px; /* интервал между строк */
   font-size: 0.9rem; /* размер шрифта 0.9 rem */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .main__title {
@@ -229,7 +207,6 @@ ol {
   line-height: 53px; /* Межстрочный интервал*/
   font-weight: 700; /* Вес шрифта */
   color: #0f2454; /* color */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .main__title span {
@@ -246,13 +223,11 @@ ol {
   font-weight: 400; /* Вес шрифта */
   letter-spacing: 0.3px; /* интервал между элементами */
   color: #676977; /* color */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .main__about--text {
   color: #676977; /* color */
   padding-top: 23px; /* внутренний отступ вниз 20px */
-  outline: 1px solid rgb(135, 31, 121);
 }
 
 .main__link {
