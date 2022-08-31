@@ -177,7 +177,9 @@ ol {
   justify-content: space-around; /* расположить одинаково*/
 }
 
-.input, .list, .botton__wrapper {
+.input,
+.list,
+.botton__wrapper {
   border-radius: 52px; /* радиус границы: 52px */
   padding: 15px; /* внутренние отступы 15px */
   width: 150px; /* ширина 150px */
@@ -252,4 +254,18 @@ ol {
   color: #676977; /* color */
   padding-top: 23px; /* внутренний отступ вниз 20px */
   /* outline: 1px solid rgb(135, 31, 121); */
+}
+
+.main__link {
+  position: fixed;
+  bottom: 3%;
+  width: 5%;
+  text-align: center;
+  right: 2%;
+  background-color: #444;
+  color: aliceblue;
+  cursor: pointer;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 50%);
 }
