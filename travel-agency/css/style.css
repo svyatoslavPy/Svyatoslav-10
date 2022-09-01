@@ -62,8 +62,7 @@ ol {
   width: 70%; /* Ширина 70% */
 }
 
-.header__item:hover {
-  /* при наведение */
+.header__item:hover { /* при наведение */
   transition: 400ms; /* Плавность 400ms*/
   color: rgba(223, 176, 88, 0.758); /* Цвет rgb */
 }
@@ -73,7 +72,7 @@ ol {
 }
 
 .main__content {
-  background-image: url(../images/beach.jpg); /* Фон images*/
+  background-image: url(../images/beach.jpg);/* Фон images*/
   background-size: cover; /* bg-size(заполняет по фону)*/
   position: relative; /* Относительно его позиционирвание*/
   padding: 24%; /* Внутренние отступы 24% */
@@ -171,6 +170,8 @@ ol {
   border: 1px solid #e1dfdf; /* границы(border) */
 }
 
+
+
 .botton__wrapper {
   width: 13%; /* ширина: 13% */
 }
@@ -227,19 +228,19 @@ ol {
 
 .main__about--text {
   color: #676977; /* color */
-  padding-top: 23px; /* внутренний отступ вниз 20px */
+  padding-top: 23px;/*внутренний отступ вверх*/
 }
 
 .main__link {
-  position: fixed;
-  bottom: 3%;
-  width: 5%;
-  text-align: center;
-  right: 2%;
-  background-color: #444;
-  color: aliceblue;
-  cursor: pointer;
-  padding: 1%;
-  border-radius: 10px;
+  position: fixed; /*Фиксированный position*/
+  bottom: 3%; /* вверх: 3%*/
+  width: 5%; /* Ширина 5% */
+  text-align: center; /* текст по центру */
+  right: 2%; /* влево: 2% */
+  background-color: #444; /* фон */
+  color: aliceblue; /* цвет */
+  cursor: pointer; /* курсор(pointer)*/
+  padding: 1%; /* внутренний отступ: 1% */
+  border-radius: 10px; /*рдс границы:10px*/
   box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 50%);
 }
